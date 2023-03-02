@@ -1,0 +1,21 @@
+begin filter
+   name           : ApiBase:Relationship:F_OnSubmit_SetConfigurationSRDCount
+   timestamp      : 1677496122
+   owner          : apibaseuser
+   last-changed   : apibaseuser
+   filter-op      : 4
+   enable         : 1
+   filter-order   : 40
+   wk-conn-type   : 1
+   schema-name    : ApiBase:Relationship
+   export-version : 12
+   filter-query   : 1\4\1\99\536870965\2\6\2\4\1\99\536870929\2\6\2\
+   action {
+      set-field   : 0\536870955\107\1\@\77\select count(*) from ApiBase_Relationship where DestinationID = '$536870930$'\1\2\3\
+   }
+   action {
+      push-field  : 0\1\@\21\ApiBase:Configuration\1\536870928\4\1\99\536870930\1\536870918\3\5\104\1\102\1\@\1\@\1\536870955\0\1\4\101\2\1\
+   }
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   errhandler-opt : 0
+end

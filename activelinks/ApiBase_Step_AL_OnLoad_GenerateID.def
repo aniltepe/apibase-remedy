@@ -1,0 +1,23 @@
+begin active link
+   name           : ApiBase:Step:AL_OnLoad_GenerateID
+   timestamp      : 1677496068
+   export-version : 12
+   owner          : apibaseuser
+   last-changed   : apibaseuser
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : ApiBase:Step
+   actlink-mask   : 278544
+   enable         : 1
+   permission     : 0 
+   actlink-query  : 4\1\2\1\9\2\4\6\CREATE\
+   action {
+   service-server : @
+   service-schema : ApiBase:Step
+   svc-rqstId-map : 0
+   svc-InFld-map  : 1\536870918\102\1\@\1\@\1\536870918\0\1\4\
+   svc-OutFld-map : 1\536870918\102\1\@\12\ApiBase:Step\1\536870918\0\1\4\
+   }
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   errhandler-opt : 0
+end

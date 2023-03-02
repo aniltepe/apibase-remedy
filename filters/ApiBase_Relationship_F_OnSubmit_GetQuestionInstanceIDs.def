@@ -1,0 +1,33 @@
+begin filter
+   name           : ApiBase:Relationship:F_OnSubmit_GetQuestionInstanceIDs
+   timestamp      : 1677496122
+   owner          : apibaseuser
+   last-changed   : apibaseuser
+   filter-op      : 4
+   enable         : 1
+   filter-order   : 10
+   wk-conn-type   : 1
+   schema-name    : ApiBase:Relationship
+   export-version : 12
+   filter-query   : 1\4\1\99\536870965\2\6\2\4\1\99\536870929\2\6\2\
+   action {
+      set-field   : 0\536870943\102\1\@\19\SRM:QuestionDef_SRD\1\179\1\4\1\99\536870921\1\302797800\4\1\99\536870933\1\303824900\2\3\
+   }
+   action {
+      set-field   : 0\536870944\102\1\@\19\SRM:QuestionDef_SRD\1\179\1\4\1\99\536870921\1\302797800\4\1\99\536870938\1\303824900\2\3\
+   }
+   action {
+      set-field   : 0\536870945\102\1\@\19\SRM:QuestionDef_SRD\1\179\1\4\1\99\536870921\1\302797800\4\1\99\536870939\1\303824900\2\3\
+   }
+   action {
+      set-field   : 0\536870946\102\1\@\19\SRM:QuestionDef_SRD\1\179\1\4\1\99\536870921\1\302797800\4\1\99\536870937\1\303824900\2\3\
+   }
+   action {
+      set-field   : 0\536870947\102\1\@\19\SRM:QuestionDef_SRD\1\179\1\4\1\99\536870921\1\302797800\4\1\99\536870940\1\303824900\2\3\
+   }
+   action {
+      set-field   : 0\536870948\102\1\@\19\SRM:QuestionDef_SRD\1\179\1\4\1\99\536870921\1\302797800\4\1\99\536870941\1\303824900\2\3\
+   }
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   errhandler-opt : 0
+end

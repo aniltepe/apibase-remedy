@@ -1,7 +1,3 @@
-char-set: UTF-8
-#
-#  File exported Per Mar 02 00:31:41 EET 2023
-#
 begin schema
    name           : ApiBase:Configuration
    core-version   : 2

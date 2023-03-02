@@ -1,0 +1,17 @@
+begin filter
+   name           : ApiBase:Validation:F_OnSubmit_GetConfigurationCount
+   timestamp      : 1677496122
+   owner          : apibaseuser
+   last-changed   : apibaseuser
+   filter-op      : 4
+   enable         : 1
+   filter-order   : 0
+   wk-conn-type   : 1
+   schema-name    : ApiBase:Validation
+   export-version : 12
+   action {
+      set-field   : 0\536870926\105\28\1\102\1\@\1\@\1\536880917\0\1\4\
+   }
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+   errhandler-opt : 0
+end

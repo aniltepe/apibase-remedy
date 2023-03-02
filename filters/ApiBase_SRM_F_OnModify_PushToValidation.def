@@ -1,0 +1,22 @@
+begin filter
+   name           : ApiBase:SRM:F_OnModify_PushToValidation
+   timestamp      : 1677496122
+   owner          : apibaseuser
+   last-changed   : apibaseuser
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 999
+   wk-conn-type   : 1
+   schema-name    : SRM:AppInstanceBridge
+   export-version : 12
+   filter-query   : 1\1\1\1\4\6\99\301289100\2\0\4\6\99\301287500\2\0\4\6\99\301723100\2\0\4\6\99\302814500\2\0\4\6\99\301781500\2\0\
+   action {
+      push-field  : 0\1\@\18\ApiBase:Validation\1\536870924\4\1\99\301289100\1\536870924\4\3\102\1\@\1\@\1\301289100\0\1\4\
+      push-field  : 1\1\@\18\ApiBase:Validation\1\536870923\4\1\99\301289100\1\536870924\4\3\102\1\@\1\@\1\301723100\0\1\4\
+      push-field  : 2\1\@\18\ApiBase:Validation\1\536870925\4\1\99\301289100\1\536870924\4\3\102\1\@\1\@\1\301287500\0\1\4\
+      push-field  : 3\1\@\18\ApiBase:Validation\1\536870934\4\1\99\301289100\1\536870924\4\3\102\1\@\1\@\1\302814500\0\1\4\
+      push-field  : 4\1\@\18\ApiBase:Validation\1\2\4\1\99\301289100\1\536870924\4\3\102\1\@\1\@\1\301781500\0\1\4\
+   }
+   object-prop    : 3\90015\2\4\90016\4\1\1\90002\4\33\Remedy Service Request Management\
+   errhandler-opt : 0
+end

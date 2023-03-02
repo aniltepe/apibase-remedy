@@ -1,0 +1,29 @@
+begin filter
+   name           : ApiBase:Relationship:F_OnDelete_SetStepKVCount
+   timestamp      : 1677496122
+   owner          : apibaseuser
+   last-changed   : apibaseuser
+   filter-op      : 8
+   enable         : 1
+   filter-order   : 0
+   wk-conn-type   : 1
+   schema-name    : ApiBase:Relationship
+   export-version : 12
+   filter-query   : 1\4\1\99\536870965\2\6\1\4\1\99\536870929\2\6\1\
+   action {
+      set-field   : 0\536870927\107\11\idmvbhmapp2\72\select KeyValueType from ApiBase_KeyValue where ObjectID = '$536870930$'\1\2\3\
+   }
+   action {
+      set-field   : 0\536870955\107\1\@\112\select count(*) from ApiBase_Join_KeyValue where SourceID__c = '$536870921$' AND KeyValueType__c = '$536870927$'\1\2\3\
+   }
+   action {
+      call-server : @
+      call-guide  : ApiBase:Relationship:FG_DecrementStepKVCount
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+   errhandler-opt : 0
+end

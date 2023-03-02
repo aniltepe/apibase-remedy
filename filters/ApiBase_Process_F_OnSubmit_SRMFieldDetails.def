@@ -1,0 +1,55 @@
+begin filter
+   name           : ApiBase:Process:F_OnSubmit_SRMFieldDetails
+   timestamp      : 1677496122
+   owner          : apibaseuser
+   last-changed   : apibaseuser
+   filter-op      : 4
+   enable         : 1
+   filter-order   : 20
+   wk-conn-type   : 1
+   schema-name    : ApiBase:Process
+   export-version : 12
+   action {
+      set-field   : 0\536870965\107\11\idmvbhmapp2\126\select f.fieldName from field f, arschema s where s.schemaId=f.schemaId and s.name = 'SRM:Request' and f.fieldId='$5368
+      set-field   : 0\70953$'\1\2\3\
+   }
+   action {
+      set-field   : 0\536870966\107\1\@\126\select f.fieldName from field f, arschema s where s.schemaId=f.schemaId and s.name = 'SRM:Request' and f.fieldId='$536870951$'\1\2\3\
+   }
+   action {
+      set-field   : 0\536870967\107\1\@\126\select f.fieldName from field f, arschema s where s.schemaId=f.schemaId and s.name = 'SRM:Request' and f.fieldId='$536870950$'\1\2\3\
+   }
+   action {
+      set-field   : 0\536870968\107\1\@\126\select f.fieldName from field f, arschema s where s.schemaId=f.schemaId and s.name = 'SRM:Request' and f.fieldId='$536870952$'\1\2\3\
+   }
+   action {
+      set-field   : 0\536870969\107\1\@\126\select f.fieldName from field f, arschema s where s.schemaId=f.schemaId and s.name = 'SRM:Request' and f.fieldId='$536870954$'\1\2\3\
+   }
+   action {
+      set-field   : 0\536870970\107\1\@\126\select f.fieldName from field f, arschema s where s.schemaId=f.schemaId and s.name = 'SRM:Request' and f.fieldId='$536870949$'\1\2\3\
+   }
+   action {
+      set-field   : 0\536870965\105\23\3\102\1\@\1\@\1\536870965\0\1\4\101\4\1\ \101\4\1\_\
+      set-field   : 1\536870966\105\23\3\102\1\@\1\@\1\536870966\0\1\4\101\4\1\ \101\4\1\_\
+      set-field   : 2\536870967\105\23\3\102\1\@\1\@\1\536870967\0\1\4\101\4\1\ \101\4\1\_\
+      set-field   : 3\536870968\105\23\3\102\1\@\1\@\1\536870968\0\1\4\101\4\1\ \101\4\1\_\
+      set-field   : 4\536870969\105\23\3\102\1\@\1\@\1\536870969\0\1\4\101\4\1\ \101\4\1\_\
+      set-field   : 5\536870970\105\23\3\102\1\@\1\@\1\536870970\0\1\4\101\4\1\ \101\4\1\_\
+   }
+   action {
+      set-field   : 0\536870933\107\1\@\137\select $536870965$, $536870966$, $536870967$, $536870968$, $536870969$, $536870970$ from SRM_Request where Request_Number = '$5368
+      set-field   : 0\70944$'\1\2\3\
+      set-field   : 1\536870938\107\1\@\137\select $536870965$, $536870966$, $536870967$, $536870968$, $536870969$, $536870970$ from SRM_Request where Request_Number = '$5368
+      set-field   : 1\70944$'\2\2\3\
+      set-field   : 2\536870939\107\1\@\137\select $536870965$, $536870966$, $536870967$, $536870968$, $536870969$, $536870970$ from SRM_Request where Request_Number = '$5368
+      set-field   : 2\70944$'\3\2\3\
+      set-field   : 3\536870937\107\1\@\137\select $536870965$, $536870966$, $536870967$, $536870968$, $536870969$, $536870970$ from SRM_Request where Request_Number = '$5368
+      set-field   : 3\70944$'\4\2\3\
+      set-field   : 4\536870940\107\1\@\137\select $536870965$, $536870966$, $536870967$, $536870968$, $536870969$, $536870970$ from SRM_Request where Request_Number = '$5368
+      set-field   : 4\70944$'\5\2\3\
+      set-field   : 5\536870941\107\1\@\137\select $536870965$, $536870966$, $536870967$, $536870968$, $536870969$, $536870970$ from SRM_Request where Request_Number = '$5368
+      set-field   : 5\70944$'\6\2\3\
+   }
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+   errhandler-opt : 0
+end

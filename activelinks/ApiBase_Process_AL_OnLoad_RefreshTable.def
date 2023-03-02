@@ -1,0 +1,24 @@
+begin active link
+   name           : ApiBase:Process:AL_OnLoad_RefreshTable
+   timestamp      : 1677496068
+   export-version : 12
+   owner          : apibaseuser
+   last-changed   : apibaseuser
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : ApiBase:Process
+   actlink-mask   : 278544
+   enable         : 1
+   permission     : 0 
+   actlink-query  : 4\1\2\1\9\2\4\3\SET\
+   action {
+   display-prop   : 1\225\6\1\
+      id          : 536870924
+      char-menu   : 
+      focus       : 0
+      access-opt  : 0
+      option      : 0
+   }
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+   errhandler-opt : 0
+end
