@@ -1,0 +1,20 @@
+begin active link
+   name           : ApiBase:Relationship:AL_OnReturn_DestinationTypeNull
+   timestamp      : 1677496068
+   export-version : 12
+   owner          : apibaseuser
+   last-changed   : apibaseuser
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : ApiBase:Relationship
+   actlink-mask   : 2
+   actlink-focus  : 536870929
+   enable         : 1
+   permission     : 0 
+   actlink-query  : 4\1\1\536870929\2\0\
+   action {
+      set-field   : 0\536870931\101\0\
+   }
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   errhandler-opt : 0
+end

@@ -1,0 +1,18 @@
+begin filter
+   name           : ApiBase:ProcessStep:F_OnError_ExecuteProcessStep
+   timestamp      : 1677496122
+   owner          : apibaseuser
+   last-changed   : apibaseuser
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : ApiBase:ProcessStep
+   export-version : 12
+   action {
+      set-field   : 0\536870980\104\1\104\1\104\1\104\1\101\1\42\101\4\3\ - \101\1\43\101\4\3\ - \101\1\44\
+      set-field   : 1\536871031\101\6\0\
+   }
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+   errhandler-opt : 0
+end

@@ -1,0 +1,18 @@
+begin filter
+   name           : ApiBase:Configuration:F_OnService_GenerateID
+   timestamp      : 1677496122
+   owner          : apibaseuser
+   last-changed   : apibaseuser
+   filter-op      : 64
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : ApiBase:Configuration
+   export-version : 12
+   filter-query   : 4\1\99\536870918\2\0\
+   action {
+      set-field   : 0\536870918\103\28\Application-Generate-GUID CO\
+   }
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   errhandler-opt : 0
+end

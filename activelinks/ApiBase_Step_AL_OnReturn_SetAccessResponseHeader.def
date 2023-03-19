@@ -1,0 +1,31 @@
+begin active link
+   name           : ApiBase:Step:AL_OnReturn_SetAccessResponseHeader
+   timestamp      : 1677496068
+   export-version : 12
+   owner          : apibaseuser
+   last-changed   : apibaseuser
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : ApiBase:Step
+   actlink-mask   : 278546
+   actlink-focus  : 536870929
+   enable         : 1
+   permission     : 0 
+   actlink-query  : 4\1\1\536870929\2\6\1\
+   action {
+      id          : 536870934
+      char-menu   : 
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   else {
+      id          : 536870934
+      char-menu   : 
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+   errhandler-opt : 0
+end

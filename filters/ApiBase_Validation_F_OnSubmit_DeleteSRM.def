@@ -1,0 +1,18 @@
+begin filter
+   name           : ApiBase:Validation:F_OnSubmit_DeleteSRM
+   timestamp      : 1677496122
+   owner          : apibaseuser
+   last-changed   : apibaseuser
+   filter-op      : 4
+   enable         : 1
+   filter-order   : 10
+   wk-conn-type   : 1
+   schema-name    : ApiBase:Validation
+   export-version : 12
+   filter-query   : 4\1\99\536870926\2\2\0\
+   action {
+      command     : Application-Delete-Entry "$-5$" $1$
+   }
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+   errhandler-opt : 0
+end

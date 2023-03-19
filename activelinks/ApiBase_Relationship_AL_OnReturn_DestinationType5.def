@@ -1,0 +1,109 @@
+begin active link
+   name           : ApiBase:Relationship:AL_OnReturn_DestinationType5
+   timestamp      : 1677496068
+   export-version : 12
+   owner          : apibaseuser
+   last-changed   : apibaseuser
+   actlink-order  : 0
+   wk-conn-type   : 1
+   schema-name    : ApiBase:Relationship
+   actlink-mask   : 2
+   actlink-focus  : 536870929
+   enable         : 1
+   permission     : 0 
+   actlink-query  : 1\4\1\1\536870965\2\6\2\4\1\1\536870929\2\6\2\
+   action {
+      id          : 536870933
+      char-menu   : 
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 536870938
+      char-menu   : 
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 536870939
+      char-menu   : 
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 536870937
+      char-menu   : 
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 536870940
+      char-menu   : 
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   action {
+      id          : 536870941
+      char-menu   : 
+      focus       : 0
+      access-opt  : 2
+      option      : 0
+   }
+   else {
+      id          : 536870933
+      char-menu   : 
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   else {
+      id          : 536870938
+      char-menu   : 
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   else {
+      id          : 536870939
+      char-menu   : 
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   else {
+      id          : 536870937
+      char-menu   : 
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   else {
+      id          : 536870940
+      char-menu   : 
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   else {
+      id          : 536870941
+      char-menu   : 
+      focus       : 0
+      access-opt  : 1
+      option      : 0
+   }
+   else {
+      set-field   : 0\536870933\101\0\
+      set-field   : 1\536870937\101\0\
+      set-field   : 2\536870938\101\0\
+      set-field   : 3\536870939\101\0\
+      set-field   : 4\536870940\101\0\
+      set-field   : 5\536870941\101\0\
+   }
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   errhandler-opt : 0
+end

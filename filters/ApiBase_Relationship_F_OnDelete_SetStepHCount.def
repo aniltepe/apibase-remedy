@@ -1,0 +1,18 @@
+begin filter
+   name           : ApiBase:Relationship:F_OnDelete_SetStepHCount
+   timestamp      : 1677496122
+   owner          : apibaseuser
+   last-changed   : apibaseuser
+   filter-op      : 0
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : ApiBase:Relationship
+   export-version : 12
+   filter-query   : 4\1\99\536870927\2\4\1\0\
+   action {
+      push-field  : 0\1\@\12\ApiBase:Step\1\536870926\4\1\99\536870921\1\536870918\3\5\104\2\102\1\@\1\@\1\536870955\0\1\4\101\2\1\
+   }
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+   errhandler-opt : 0
+end

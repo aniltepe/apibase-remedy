@@ -1,0 +1,19 @@
+begin filter
+   name           : ApiBase:KeyValue:F_OnSubmit_SubmitterDetails
+   timestamp      : 1677496122
+   owner          : apibaseuser
+   last-changed   : apibaseuser
+   filter-op      : 4
+   enable         : 1
+   filter-order   : 0
+   wk-conn-type   : 1
+   schema-name    : ApiBase:KeyValue
+   export-version : 12
+   action {
+      set-field   : 0\536870915\102\1\@\10\CTM:People\1\200000006\4\1\99\2\1\4\2\3\
+      set-field   : 1\536870914\102\1\@\10\CTM:People\1\1000000010\4\1\99\2\1\4\2\3\
+      set-field   : 2\536870913\102\1\@\10\CTM:People\1\1000000017\4\1\99\2\1\4\2\3\
+   }
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   errhandler-opt : 0
+end

@@ -1,0 +1,21 @@
+begin filter
+   name           : ApiBase:Process:F_OnSubmit_ConfigurationDetails
+   timestamp      : 1677496122
+   owner          : apibaseuser
+   last-changed   : apibaseuser
+   filter-op      : 4
+   enable         : 1
+   filter-order   : 10
+   wk-conn-type   : 1
+   schema-name    : ApiBase:Process
+   export-version : 12
+   action {
+      set-field   : 0\536870920\102\1\@\21\ApiBase:Configuration\1\536870920\4\1\99\536870923\1\536870918\2\3\
+      set-field   : 1\536870927\102\1\@\21\ApiBase:Configuration\1\536870927\4\1\99\536870923\1\536870918\2\3\
+   }
+   action {
+      set-field   : 0\536870928\105\31\1\102\1\@\1\@\1\536880922\0\1\4\
+   }
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+   errhandler-opt : 0
+end

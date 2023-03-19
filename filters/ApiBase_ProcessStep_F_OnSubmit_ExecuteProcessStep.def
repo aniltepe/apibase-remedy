@@ -1,0 +1,37 @@
+begin filter
+   name           : ApiBase:ProcessStep:F_OnSubmit_ExecuteProcessStep
+   timestamp      : 1677496122
+   owner          : apibaseuser
+   last-changed   : apibaseuser
+   filter-op      : 4
+   enable         : 1
+   filter-order   : 0
+   wk-conn-type   : 1
+   schema-name    : ApiBase:ProcessStep
+   export-version : 12
+   filter-query   : 4\6\99\536871031\2\6\0\
+   action {
+      set-field   : 0\8\108\24\ARSYS.ARF.RESTWEBSERVICE\12\101\4\33\http://localhost:8080/\101\4\0\\101\4\4\POST\101\4\1\0\101\4\0\\101\4\203\X-Authorization#COLSE
+      set-field   : 0\P#Basic YmllaGFybW1zLWFwaWJhc2V1c2VyOmJpZWhhcm1tcy1hcGliYXNldXNlcjEyMw==#ARSEP#Kaynak-Uygulama#COLSEP#apibaseuser#ARSEP#Kaynak-Kullanici#COLSE
+      set-field   : 0\P#apibaseuser#ARSEP#\101\4\16\application/json\101\4\0\\101\4\29\bieharmms-apibase/api/execute\101\4\1416\stepId#COLSEP#ApiBase:ProcessStep#CO
+      set-field   : 0\LSEP#NULL#COLSEP#536870935#COLSEP#NULL#COLSEP#NULL#COLSEP#NULL#COLSEP#2#COLSEP#NULL#COLSEP#NULL#ARSEP#processId#COLSEP#ApiBase:ProcessStep#COLSEP#NULL#C
+      set-field   : 0\OLSEP#536870923#COLSEP#NULL#COLSEP#NULL#COLSEP#NULL#COLSEP#2#COLSEP#NULL#COLSEP#NULL#ARSEP#reqNumber#COLSEP#ApiBase:ProcessStep#COLSEP#NULL#COLSEP#53687
+      set-field   : 0\0944#COLSEP#NULL#COLSEP#NULL#COLSEP#NULL#COLSEP#2#COLSEP#NULL#COLSEP#NULL#ARSEP#reqAppNumber#COLSEP#ApiBase:ProcessStep#COLSEP#NULL#COLSEP#536870945#COL
+      set-field   : 0\SEP#NULL#COLSEP#NULL#COLSEP#NULL#COLSEP#2#COLSEP#NULL#COLSEP#NULL#ARSEP#parameter1#COLSEP#ApiBase:ProcessStep#COLSEP#NULL#COLSEP#536870933#COLSEP#NULL#C
+      set-field   : 0\OLSEP#NULL#COLSEP#NULL#COLSEP#2#COLSEP#NULL#COLSEP#NULL#ARSEP#parameter2#COLSEP#ApiBase:ProcessStep#COLSEP#NULL#COLSEP#536870938#COLSEP#NULL#COLSEP#NULL
+      set-field   : 0\#COLSEP#NULL#COLSEP#2#COLSEP#NULL#COLSEP#NULL#ARSEP#parameter3#COLSEP#ApiBase:ProcessStep#COLSEP#NULL#COLSEP#536870939#COLSEP#NULL#COLSEP#NULL#COLSEP#NU
+      set-field   : 0\LL#COLSEP#2#COLSEP#NULL#COLSEP#NULL#ARSEP#parameter4#COLSEP#ApiBase:ProcessStep#COLSEP#NULL#COLSEP#536870937#COLSEP#NULL#COLSEP#NULL#COLSEP#NULL#COLSEP#
+      set-field   : 0\2#COLSEP#NULL#COLSEP#NULL#ARSEP#parameter5#COLSEP#ApiBase:ProcessStep#COLSEP#NULL#COLSEP#536870940#COLSEP#NULL#COLSEP#NULL#COLSEP#NULL#COLSEP#2#COLSEP#N
+      set-field   : 0\ULL#COLSEP#NULL#ARSEP#parameter6#COLSEP#ApiBase:ProcessStep#COLSEP#NULL#COLSEP#536870941#COLSEP#NULL#COLSEP#NULL#COLSEP#NULL#COLSEP#2#COLSEP#NULL#COLSEP
+      set-field   : 0\#NULL#ARSEP#\101\4\433\response#COLSEP#ApiBase:ProcessStep#COLSEP#NULL#COLSEP#536871013#COLSEP#NULL#COLSEP#NULL#COLSEP#NULL#COLSEP#2#COLSEP#NULL#COLSEP#
+      set-field   : 0\NULL#ARSEP#responseCode#COLSEP#ApiBase:ProcessStep#COLSEP#NULL#COLSEP#536870917#COLSEP#NULL#COLSEP#NULL#COLSEP#NULL#COLSEP#2#COLSEP#NULL#COLSEP#NULL#ARS
+      set-field   : 0\EP#formattedResponse#COLSEP#ApiBase:ProcessStep#COLSEP#NULL#COLSEP#536870950#COLSEP#NULL#COLSEP#NULL#COLSEP#NULL#COLSEP#2#COLSEP#NULL#COLSEP#NULL#ARSEP#
+      set-field   : 0\\101\4\0\\8\
+   }
+   action {
+      set-field   : 0\536870949\101\6\0\
+   }
+   object-prop    : 2\90015\2\4\90016\4\1\1\
+   errhandler-opt : 1
+   errhandler-name: ApiBase:ProcessStep:F_OnError_ExecuteProcessStep
+end
